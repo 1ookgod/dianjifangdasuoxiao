@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+    <img src="img/timg (5).jpg" id="pic">
+    <div class="btn">
+        <button id='amplification'>放大</button>
+        <button id='narrow'>缩小</button>
+    </div>
+    <script>
+            var pic=document.getElementById("pic");
+            var amplification=document.getElementById("amplification");
+            var narrow=document.getElementById("narrow");
+            amplification.onclick=function(){
+                pic.style.width='1020px';
+                pic.style.height='500px';
+            }
+            narrow.onclick=function(){
+                pic.style.width='255px';
+                pic.style.height='125px';
+            }
+    </script>
+</body>
+</html>

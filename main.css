@@ -1,0 +1,11 @@
+
+img{
+    display:block;
+    margin:100px auto;
+    width: 510px;
+    height: 250px;
+    transition:1s
+}
+div{
+    text-align:center;
+}
